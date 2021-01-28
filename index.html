@@ -7,18 +7,20 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Slab:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
   <div id="first" class="top-container" onclick="showDiv('second')">
     <img class="top-cloud" src="images/cloud.png" alt="Cloud Image">
     <h1>Dieu anh luon giu kin trong tim</h1>
-    <!-- <h2>a <span class="third">third</span> years student</h2> -->
     <img class="bottom-cloud" src="images/cloud.png" alt="Cloud Image">
-    <!-- <img class="mountain-img" src="images/mountain.png" alt="Moutain Image"> -->
   </div>
   <div id="second" class="middle-container" style="display: none;" onclick="showDiv('third')">
+
+
     <div id="third" class="profile" style="display: none;" onclick="showDiv('fourth')" >
+
       <img class="profile-img" src="images/circle-cropped.png" alt="Nguyen Thanh Tung">
       <h2>Chúng ta của hiện tại</h2>
       <p>Em dành cả thanh xuân cho anh</p>
@@ -60,11 +62,11 @@
     <p>© 2021 Quoc Anh Nguyen.</p>
   </div>
 
-<script>
-  function showDiv(id){
-    document.getElementById(id).style.display = "block";
-}
-</script>
+
+<script src="scripts/main.js"></script>
+
+
+
 </body>
 
 </html>
